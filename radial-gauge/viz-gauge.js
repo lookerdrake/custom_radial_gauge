@@ -312,14 +312,7 @@ looker.plugins.visualizations.add({
 	      	min: 0,
 	      	max: 120,
 	      	order: 70
-	    },
-	    value_label_color: {
-	      	type: "string",
-	      	label: "Value Label Color",
-	      	default: "#707070",
-	      	section: "Value",
-	      	order: 60
-	    },
+		},
 	    target_source: {
 	      type: "string",
 	      label: "Target Source",
@@ -435,8 +428,16 @@ looker.plugins.visualizations.add({
 	      	default: "#282828",
 	      	section: "Style",
 	      	display: "color",
-	      	order: 40
+	      	order: 50
 		},
+	    value_label_color: {
+	      	type: "string",
+	      	label: "Value Label Color",
+			default: "#CECECE",
+			section: "Style",
+			display: "color",
+	      	order: 40
+	    },
 	    gauge_fill_type: {
 	      type: "string",
 	      label: "Gauge Fill Type",
